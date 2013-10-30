@@ -1,5 +1,7 @@
 package de.nordakademie.evyoli.event.service;
 
-public class EventService {
+import de.nordakademie.evyoli.event.interfaces.IEventService;
+
+public class EventService implements IEventService{
 
 }

@@ -1,5 +1,7 @@
 package de.nordakademie.evyoli.ride.dao;
 
-public class HibernateRideDao {
+import de.nordakademie.evyoli.ride.interfaces.IRideDao;
+
+public class HibernateRideDao implements IRideDao {
 
 }

@@ -1,5 +1,8 @@
 package de.nordakademie.evyoli.user.model;
 
-public class User {
+import de.nordakademie.evyoli.event.interfaces.IEventVisitor;
+import de.nordakademie.evyoli.ride.interfaces.IRidePassenger;
+
+public class User implements IEventVisitor, IRidePassenger{
 
 }

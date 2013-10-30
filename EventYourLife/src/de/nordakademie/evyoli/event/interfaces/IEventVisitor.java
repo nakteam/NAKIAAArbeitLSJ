@@ -1,5 +1,7 @@
 package de.nordakademie.evyoli.event.interfaces;
 
-public interface IEventVisitor {
+import de.nordakademie.evyoli.message.interfaces.IMessageReceiver;
 
+public interface IEventVisitor extends IMessageReceiver{
+	
 }

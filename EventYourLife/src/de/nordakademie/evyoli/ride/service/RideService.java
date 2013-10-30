@@ -1,5 +1,7 @@
 package de.nordakademie.evyoli.ride.service;
 
-public class RideService {
+import de.nordakademie.evyoli.ride.interfaces.IRideService;
+
+public class RideService implements IRideService {
 
 }

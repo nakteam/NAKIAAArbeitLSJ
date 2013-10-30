@@ -1,5 +1,7 @@
 package de.nordakademie.evyoli.event.dao;
 
-public class HibernateEventDao {
+import de.nordakademie.evyoli.event.interfaces.IEventDao;
+
+public class HibernateEventDao implements IEventDao{
 
 }
