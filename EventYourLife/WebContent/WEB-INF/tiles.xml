@@ -5,6 +5,13 @@
 		"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 
 <tiles-definitions>
-	<definition name="template" template="/XXX.jsp">
+	<definition name="mainLayout" template="/jsp/layout/mainLayout.jsp">
+		<put-attribute name="header" value="/jsp/layout/header.jsp" />
+		<put-attribute name="menue" value="/jsp/layout/menue.jsp" />
+		<put-attribute name="footer" value="/jsp/layout/footer.jsp" />
+	</definition>
+	<definition name="userProfile" extends="mainLayout">
+		<put-attribute name="content" value="/jsp/content/userProfile.jsp" />
 	</definition>
 </tiles-definitions>
+
